@@ -1,4 +1,4 @@
-package com.utools.backend.utools_pro;
+package com.utools.backend;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
