@@ -1,19 +1,4 @@
-package com.vbh.util.qrcode;
-
-import java.awt.Color;
-import java.awt.Graphics2D;
-import java.awt.Image;
-import java.awt.geom.AffineTransform;
-import java.awt.image.AffineTransformOp;
-import java.awt.image.BufferedImage;
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
-
-import javax.imageio.ImageIO;
-import javax.xml.bind.DatatypeConverter;
+package com.utools.backend.util;
 
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.EncodeHintType;
@@ -22,7 +7,18 @@ import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 import com.vbh.entity.WebUrl;
-import com.vbh.util.FileUtil;
+
+import javax.imageio.ImageIO;
+import javax.xml.bind.DatatypeConverter;
+import java.awt.*;
+import java.awt.geom.AffineTransform;
+import java.awt.image.AffineTransformOp;
+import java.awt.image.BufferedImage;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author devin
@@ -74,6 +70,7 @@ public class QrCodeUtil {
         }
         String logoFilePath = basepath + "META-INF/resources/assets/images/logo_qr.png";
 
+        
 
          String imgUrl = WebUrl.staticBaseUrl+"/assets/images/logo_qr.png";
 
