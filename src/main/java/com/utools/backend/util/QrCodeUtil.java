@@ -70,7 +70,7 @@ public class QrCodeUtil {
         }
         String logoFilePath = basepath + "META-INF/resources/assets/images/logo_qr.png";
 
-        
+
 
          String imgUrl = WebUrl.staticBaseUrl+"/assets/images/logo_qr.png";
 
