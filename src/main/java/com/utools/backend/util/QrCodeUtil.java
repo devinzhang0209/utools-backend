@@ -6,7 +6,6 @@ import com.google.zxing.MultiFormatWriter;
 import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
-import com.vbh.entity.WebUrl;
 
 import javax.imageio.ImageIO;
 import javax.xml.bind.DatatypeConverter;
@@ -72,7 +71,7 @@ public class QrCodeUtil {
 
 
 
-         String imgUrl = WebUrl.staticBaseUrl+"/assets/images/logo_qr.png";
+//         String imgUrl = WebUrl.staticBaseUrl+"/assets/images/logo_qr.png";
 
 //        FileUtil.downloadImageFromWeb(imgUrl,)
 
